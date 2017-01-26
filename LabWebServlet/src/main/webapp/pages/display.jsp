@@ -13,10 +13,10 @@
 
 <h3>Select Product Table Result : ${fn:length(select)} row(s) selected</h3>
 <c:if test="${not empty select}">
+<h1>test </h1>
 <table>
 	<thead>
 	<tr>
-		<th>ID</th>
 		<th>ID</th>
 		<th>Name</th>
 		<th>Price</th>
