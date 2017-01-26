@@ -17,12 +17,9 @@ import model.CustomerService;
 @RequestMapping(path={"/secure/login.controller"})
 @SessionAttributes(names={"user"})
 public class LoginController {
-	@Autowired
-	private CustomerService customerService;////////////////////////AAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCC
 	
-	//DDDDDDDDDDDDDDDDDDDDDDDD
-	//CCCCCCCCCCCCCCCCC
-	//EEEEEEEEEEEEEEEEEEEEEEE
+
+	private CustomerService customerService;
 	@RequestMapping(method={RequestMethod.GET, RequestMethod.POST})
 	public String get(String username, String password, Model model) {
 	
@@ -31,10 +28,11 @@ public class LoginController {
 		model.addAttribute("errors", errors);
 
 		if(username==null || username.length()==0) {
-			errors.put("username", "ID是必要欄位(mvc)AAAAAAAAAAAA");
+			errors.put("username", "ID是必要欄位(mvc)");
 		}
 		if(password==null || password.length()==0) {
-			errors.put("password", "PWD是必要欄位(mvc)BBBBBBBBBB");
+			errors.put("password", "PWD是必要欄位(mvc)");
+
 		}
 		if(errors!=null && !errors.isEmpty()) {
 			return "login.error";
