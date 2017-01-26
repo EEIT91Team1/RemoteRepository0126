@@ -16,8 +16,7 @@
 <table>
 	<thead>
 	<tr>
-		<th>yayaYA</th>
-		<th>ya</th>
+
 		<th>ID</th>
 		<th>Name</th>
 		<th>Price</th>
