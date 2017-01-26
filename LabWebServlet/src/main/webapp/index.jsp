@@ -8,6 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Home</title>
 </head>
+
 <body>
 
 //123
@@ -17,11 +18,11 @@ xxx
 <!-- //112123213	12123 -->
 <h3>Welcome ${user.custid}</h3>
 
+
+<body>
+
 <h3>Welcome ${user.custid}</h3>
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
-<h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
 <h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
-<h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
-
 </body>
 </html>
