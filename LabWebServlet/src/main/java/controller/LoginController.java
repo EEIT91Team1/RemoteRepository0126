@@ -16,6 +16,7 @@ import model.CustomerService;
 @Controller
 @RequestMapping(path={"/secure/login.controller"})
 @SessionAttributes(names={"user"})
+
 public class LoginController {
 	@Autowired
 	private CustomerService customerService;
