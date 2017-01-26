@@ -1,0 +1,8 @@
+/target/
+/.settings/
+/target/
+/.classpath
+/.project
+/.springBeans
+/.tern-project
+/src/test/
