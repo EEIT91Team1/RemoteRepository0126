@@ -17,6 +17,7 @@
 	<thead>
 	<tr>
 		<th>ID</th>
+		<th>ID</th>
 		<th>Name</th>
 		<th>Price</th>
 		<th>Make</th>
