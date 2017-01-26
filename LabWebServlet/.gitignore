@@ -1,9 +1,14 @@
-/target/
-/.settings/
-/target/
+<<<<<<< HEAD
 /.classpath
 /.project
 /.springBeans
-/.tern-project
-/src/test/
-/Users/
+=======
+/.project
+/.springBeans
+/target/
+/.settings
+/.classpath
+<<<<<<< HEAD
+>>>>>>> branch 'master' of https://github.com/EEIT91Team1/RemoteRepository0126.git
+=======
+>>>>>>> branch 'master' of https://github.com/EEIT91Team1/RemoteRepository0126.git

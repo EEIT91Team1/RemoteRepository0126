@@ -16,6 +16,7 @@ import model.CustomerService;
 @Controller
 @RequestMapping(path={"/secure/login.controller"})
 @SessionAttributes(names={"user"})
+
 public class LoginController {
 	@Autowired
 	private CustomerService customerService;
@@ -31,6 +32,7 @@ public class LoginController {
 		}
 		if(password==null || password.length()==0) {
 			errors.put("password", "PWD是必要欄位(mvc)");
+
 		}
 		if(errors!=null && !errors.isEmpty()) {
 			return "login.error";

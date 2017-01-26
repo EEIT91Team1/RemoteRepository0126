@@ -21,6 +21,7 @@ public class SpringJavaConfig {
 		try {
 			Context ctx = new InitialContext();
 			dataSource = (DataSource) ctx.lookup("java:comp/env/jdbc/xxx");
+
 		} catch (NamingException e) {
 			e.printStackTrace();
 		}
