@@ -1,5 +1,5 @@
 package config;
-
+ 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class RegisterDispatcherServlet extends AbstractAnnotationConfigDispatcherServletInitializer {

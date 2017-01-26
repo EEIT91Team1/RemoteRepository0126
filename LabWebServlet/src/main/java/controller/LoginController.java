@@ -22,6 +22,7 @@ public class LoginController {
 	
 	//DDDDDDDDDDDDDDDDDDDDDDDD
 	//CCCCCCCCCCCCCCCCC
+	//EEEEEEEEEEEEEEEEEEEEEEE
 	@RequestMapping(method={RequestMethod.GET, RequestMethod.POST})
 	public String get(String username, String password, Model model) {
 	
