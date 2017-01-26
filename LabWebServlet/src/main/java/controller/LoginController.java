@@ -19,6 +19,9 @@ import model.CustomerService;
 public class LoginController {
 	@Autowired
 	private CustomerService customerService;////////////////////////AAAAAAAAAAAAAAAABBBBBBBBBBBBBBBBBBBCCCCCCCCCCCCCCCCCCCCCCCCC
+	
+	//DDDDDDDDDDDDDDDDDDDDDDDD
+	//CCCCCCCCCCCCCCCCC
 	@RequestMapping(method={RequestMethod.GET, RequestMethod.POST})
 	public String get(String username, String password, Model model) {
 	
